@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.keys import Keys
 
-driver = webdriver.Chrome('./chromedriver')
+driver = webdriver.Chrome('/var/lib/jenkins/workspace/PythonSeleniumMoodle/moodle/chromedriver')
 driver.implicitly_wait(30)
 driver.maximize_window()
 
